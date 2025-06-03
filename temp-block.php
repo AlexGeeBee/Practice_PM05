@@ -1,5 +1,8 @@
-
 <?php require __DIR__ . '/imports/init.php' ?>
+<?php if (!$user->isAdmin) {
+    $resp->redirect('index.php', []);
+    die();
+} ?>
 
 <!DOCTYPE html>
 <html lang="en">

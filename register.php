@@ -1,4 +1,8 @@
 <?php require __DIR__ . '/imports/init.php' ?>
+<?php if (!$user->isGuest) {
+    $resp->redirect('index.php', []);
+    die();
+} ?>
 
 <!DOCTYPE html>
 <html lang="en">

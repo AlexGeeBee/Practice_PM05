@@ -1,4 +1,5 @@
 <?php require __DIR__ . '/imports/init.php' ?>
+<?php require __DIR__ . '/imports/post_init.php' ?>
 
 <!DOCTYPE html>
 <html lang="en">

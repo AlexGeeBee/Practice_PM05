@@ -34,7 +34,7 @@
 											<td>dfg</td>
 											<td>@mdo</td>
 											<td>
-												<a href="temp-block.php" class="btn btn-outline-warning px-4">⏳
+												<a href="" class="btn btn-outline-warning px-4">⏳
 													Block</a>
 											</td>
 											<td>
