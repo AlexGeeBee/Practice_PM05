@@ -65,7 +65,7 @@ class Post extends Data {
         return parent::datetime_format($this->created_at);
     }
 
-    public function posts_list($limit = null) {
+    public function posts_list($limit = null, $offset = 0) {
 
         $query = "SELECT post.*, COUNT(comment_id) AS comments_count 
                 FROM `post` 
@@ -73,7 +73,7 @@ class Post extends Data {
                 GROUP BY post.post_id
                 ORDER BY created_at DESC";
 
-        $query .= isset($limit) ? " LIMIT $limit;" : ";";
+        $query .= isset($limit) ? " LIMIT $offset, $limit;" : ";";
 
         $res = $this->user->mysql->db_query($query);
         $output_arr = [];

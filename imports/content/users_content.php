@@ -27,48 +27,31 @@
 										</tr>
 									</thead>
 									<tbody>
-										<tr>
-											<th scope="row">1</th>
-											<td>Mark</td>
-											<td>Otto</td>
-											<td>dfg</td>
-											<td>@mdo</td>
-											<td>
-												<a href="" class="btn btn-outline-warning px-4">⏳
-													Block</a>
-											</td>
-											<td>
-												<a href="#" class="btn btn-outline-danger px-4">📌 Block</a>
-											</td>
-										</tr>
-										<tr>
-											<th scope="row">2</th>
-											<td>Mark</td>
-											<td>Otto</td>
-											<td>dfg</td>
-											<td>@mdo</td>
-											<td>
-												<a href="temp-block.php" class="btn btn-outline-warning px-4">⏳
-													Block</a>
-											</td>
-											<td>
-												<a href="#" class="btn btn-outline-danger px-4">📌 Block</a>
-											</td>
-										</tr>
-										<tr>
-											<th scope="row">3</th>
-											<td>Mark</td>
-											<td>Otto</td>
-											<td>dfg</td>
-											<td>@mdo</td>
-											<td>
-												<a href="temp-block.php" class="btn btn-outline-warning px-4">⏳
-													Block</a>
-											</td>
-											<td>
-												<a href="#" class="btn btn-outline-danger px-4">📌 Block</a>
-											</td>
-										</tr>
+
+										<?php 
+											$users = $user->all_users();
+											if ($users) {
+												foreach ($users as $user_) {
+													$error = (!empty($req->get('user_id')) && $req->get('user_id') == $user_->user_id && !empty($req->get('error'))) 
+													? "<p>" . $req->get('error') . "</p>" 
+													: "";
+
+													echo "<tr>
+															<th scope=\"row\">$user_->user_id</th>
+															<td>$user_->_name</td>
+															<td>$user_->_surname</td>
+															<td>$user_->_login</td>
+															<td>$user_->_email</td>
+															<td>" 
+															. ($user_->isAdmin ? "" : "<a href=\"" . $resp->getLink('/temp-block.php', ['user_id' => $user_->user_id]) . "\" class=\"btn btn-outline-warning px-4\">⏳Block</a>")
+															. "</td>
+															<td>" 
+															. ($user_->isAdmin ? "" : "<a href=\""  . $resp->getLink('/imports/block.php', ['user_id' => $user_->user_id, 'block' => 'perm']) . "\" class=\"btn btn-outline-danger px-4\">📌 Block</a>") 
+															. $error . "</td>
+														</tr>";
+												}
+											}
+										?>										
 
 									</tbody>
 								</table>

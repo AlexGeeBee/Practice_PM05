@@ -9,7 +9,6 @@ $user = new User($req, $mysql);
 $resp = new Response($user);
 $menu = new Menu($menu_items, $resp);
 $post = new Post($user);
-
 $comment = new Comment($post);
 
 ?>

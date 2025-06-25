@@ -88,7 +88,7 @@
 
 						</div>
 						<div class="comments pt-5 mt-5">
-							<h3 class="mb-5 font-weight-bold"><?= $post->comments_count ?> комментариев</h3>
+							<h3 class="mb-5 font-weight-bold">Комментарии (<?= $post->comments_count ?>)</h3>
 							<ul class="comment-list">
 								<?php
 								$action = '';

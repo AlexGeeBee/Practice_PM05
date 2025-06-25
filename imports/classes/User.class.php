@@ -31,13 +31,10 @@ class User
 
     public function __construct(object $request, object $mysql) {
 
-        // file_put_contents("text.txt", 'construct, ', FILE_APPEND);
-
         $this->request = $request;
         $this->mysql = $mysql;
 
         if ($this->request->get_token()) {
-            // var_dump("construct vd_" . str_shuffle('12345'));
             $this->identity();
         }
     }
@@ -84,7 +81,7 @@ class User
 
         $password_hash = password_hash($this->_password, PASSWORD_DEFAULT);
 
-        $query_code = "INSERT INTO user (_name, _surname, patronymic, _login, _email, _password) VALUES ('$this->_name', '$this->_surname', '$this->patronymic', '$this->_login', '$this->_email', '$password_hash')";
+        $query_code = "INSERT INTO `user` (_name, _surname, patronymic, _login, _email, _password) VALUES ('$this->_name', '$this->_surname', '$this->patronymic', '$this->_login', '$this->_email', '$password_hash')";
 
         $res = $this->mysql->db_query($query_code);
 
@@ -96,7 +93,7 @@ class User
     }
 
     public function login() {
-        $query_res = $this->mysql->db_query("SELECT * FROM `user` WHERE _login = '$this->_login'");
+        $query_res = $this->mysql->db_query("SELECT * FROM `user` WHERE `_login` = '$this->_login'");
 
         if (empty($query_res)) {
             $this->login_validate = 'login does not exist';
@@ -104,6 +101,12 @@ class User
         }
 
         if (password_verify($this->_password, $query_res[0]['_password'])) {
+
+            if ($this->block_status($query_res[0]['user_id'])) {
+                $this->login_validate = 'this user is blocked';
+                return false;
+            }
+
             $this->load($query_res[0]);
 
             $this->isGuest = false;
@@ -113,14 +116,15 @@ class User
             $this->token = substr(str_shuffle($chars), 0, 12);
 
             return $this->mysql->db_query("UPDATE `user` SET `token` = '$this->token' WHERE `user`.`user_id` = $this->user_id");
-        } else {
+        } 
+        else {
             $this->password_validate = 'incorrect password';
             return false;
         }
     }
 
     public function identity() {
-        $query_res = $this->mysql->db_query("SELECT * FROM `user` WHERE token = '{$this->request->get_token()}'");
+        $query_res = $this->mysql->db_query("SELECT * FROM `user` WHERE `token` = '{$this->request->get_token()}'");
         if ($query_res) {
             $this->isGuest = false;
             $this->load($query_res[0]);
@@ -128,8 +132,13 @@ class User
         
     }
 
+    public function findOne($user_id) {
+        $query_res = $this->mysql->db_query("SELECT * FROM `user` WHERE `user`.`user_id` = '$user_id'");
+        return $query_res ? $query_res[0] : false;
+    }
+
     public function isAdmin() {
-        $query_res = $this->mysql->db_query("SELECT is_admin FROM `user` WHERE user_id = $this->user_id");
+        $query_res = $this->mysql->db_query("SELECT is_admin FROM `user` WHERE `user_id` = $this->user_id");
         return $query_res[0]['is_admin'];
     }
 
@@ -141,5 +150,55 @@ class User
         }
     }
 
+    public function all_users() {
+        $query_res = $this->mysql->db_query("SELECT * FROM `user`");
 
+        if (!empty($query_res)) {
+            $output = [];
+
+            foreach($query_res as $user) {
+                $obj = new static($this->request, $this->mysql);
+                $obj->load($user);
+                $output[] = $obj;
+            }
+
+            return $output;
+        }
+
+        return false;
+    }
+
+    public function block($user_id, $block_end_date = null) {
+        
+        $this->mysql->db_query("UPDATE `user` SET `token` = NULL WHERE `user`.`user_id` = $user_id");
+
+        if (isset($block_end_date)) {
+            $this->mysql->db_query("INSERT INTO `blocking` (`user_id`, `end_date`) VALUES ('$user_id', '$block_end_date');");
+        }
+        else {
+            $this->mysql->db_query("INSERT INTO `blocking` (`user_id`, `end_date`) VALUES ('$user_id', NULL);");
+        }
+    }
+
+    public function block_status($user_id = null) {
+
+        $id = isset($user_id) ? $user_id : $this->user_id;
+        $res = $this->mysql->db_query("SELECT * FROM `blocking` WHERE `user_id` = $id ORDER BY `block_date` DESC LIMIT 1;");
+
+        if ($res) {
+            if ($res[0]['end_date'] == null) {
+                return 'permanently';
+            }
+            
+            $end_date = new DateTime($res[0]['end_date']);
+            $now = new DateTime('now');
+
+            if ($end_date > $now) {
+                return 'temporary';
+            }
+        }
+        
+        return false;
+
+    }
 }

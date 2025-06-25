@@ -8,7 +8,7 @@ class Response {
         $this->user = $user;
         
         if ($this->user->request->get_token() && empty($this->user->token)) {
-            $this->redirect('index.php', []);
+            $this->redirect('/index.php', []);
             die();
         }
     }
