@@ -1,0 +1,592 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Страница — 1" id="8P4_2l0_a2KNKIL9yH-l">
+    <mxGraphModel dx="2593" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-1" value="Информационная система" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="830" y="-105" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-3" value="Роли" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="870" y="-235" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-4" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-1" target="5C3-gxpcgWqqSa_wzZ6r-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="-15" as="sourcePoint" />
+            <mxPoint x="1200" y="-65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-6" value="Автор" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="900" y="-370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-7" value="Гость" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="-300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-8" value="Администратор" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="-215" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-9" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-3" target="5C3-gxpcgWqqSa_wzZ6r-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="-35" as="sourcePoint" />
+            <mxPoint x="1270" y="-85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-3" target="5C3-gxpcgWqqSa_wzZ6r-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="-35" as="sourcePoint" />
+            <mxPoint x="1270" y="-85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-3" target="5C3-gxpcgWqqSa_wzZ6r-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="-35" as="sourcePoint" />
+            <mxPoint x="1270" y="-85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-14" value="Просмотр ленты постов" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="-520" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-15" value="Просмотр всех постов" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="1169" y="-590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-16" value="Просмотр&amp;nbsp;поста с детальной информацией" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="-513" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-17" value="Регистрация" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="-480" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-18" value="Авторизация" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="-390" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-19" value="Написание поста" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="560" y="-430" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-20" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-6" target="5C3-gxpcgWqqSa_wzZ6r-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1275" y="-275" as="sourcePoint" />
+            <mxPoint x="1325" y="-325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-21" value="Редактирование поста" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="600" y="-520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-22" value="Удаление поста" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="710" y="-590" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-6" target="5C3-gxpcgWqqSa_wzZ6r-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1485" y="-265" as="sourcePoint" />
+            <mxPoint x="1535" y="-315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-6" target="5C3-gxpcgWqqSa_wzZ6r-22" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1485" y="-265" as="sourcePoint" />
+            <mxPoint x="1535" y="-315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-25" value="Написание комментария" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="855" y="-550" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-26" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-6" target="5C3-gxpcgWqqSa_wzZ6r-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1485" y="-265" as="sourcePoint" />
+            <mxPoint x="1535" y="-315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-27" value="Удаление поста" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="-300" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-28" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-8" target="5C3-gxpcgWqqSa_wzZ6r-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1390" y="-5" as="sourcePoint" />
+            <mxPoint x="1440" y="-55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-29" value="Удаление комментария" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="1590" y="-220" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-30" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-8" target="5C3-gxpcgWqqSa_wzZ6r-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1390" y="-5" as="sourcePoint" />
+            <mxPoint x="1440" y="-55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-31" value="Просмотр списка пользователей в системе" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="1590" y="-140" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-32" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-8" target="5C3-gxpcgWqqSa_wzZ6r-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="155" as="sourcePoint" />
+            <mxPoint x="1420" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-33" value="Блокировка входа пользователя в систему" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="-135" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-34" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-8" target="5C3-gxpcgWqqSa_wzZ6r-33" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="195" as="sourcePoint" />
+            <mxPoint x="1260" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-35" value="Блокировка навсегда" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="-85" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-36" value="Блокировка на время" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="1280" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-38" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-33" target="5C3-gxpcgWqqSa_wzZ6r-35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="295" as="sourcePoint" />
+            <mxPoint x="1260" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-39" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-33" target="5C3-gxpcgWqqSa_wzZ6r-36" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="295" as="sourcePoint" />
+            <mxPoint x="1260" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-40" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-7" target="5C3-gxpcgWqqSa_wzZ6r-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="-215" as="sourcePoint" />
+            <mxPoint x="1160" y="-265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-41" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-7" target="5C3-gxpcgWqqSa_wzZ6r-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="-215" as="sourcePoint" />
+            <mxPoint x="1160" y="-265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-43" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-7" target="5C3-gxpcgWqqSa_wzZ6r-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="-175" as="sourcePoint" />
+            <mxPoint x="880" y="-225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-44" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-7" target="5C3-gxpcgWqqSa_wzZ6r-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="-185" as="sourcePoint" />
+            <mxPoint x="930" y="-235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-45" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-7" target="5C3-gxpcgWqqSa_wzZ6r-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="-325" as="sourcePoint" />
+            <mxPoint x="1000" y="-375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-48" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-8" target="5C3-gxpcgWqqSa_wzZ6r-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1450" y="-39" as="sourcePoint" />
+            <mxPoint x="1510" y="-75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-49" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-6" target="5C3-gxpcgWqqSa_wzZ6r-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="24" as="sourcePoint" />
+            <mxPoint x="1494" y="-85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-50" value="Страницы" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="550" y="-135" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-51" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-1" target="5C3-gxpcgWqqSa_wzZ6r-50" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="110" as="sourcePoint" />
+            <mxPoint x="760" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-53" value="О нас" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="420" y="-310" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-54" value="Главная" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="300" y="-275" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-56" value="Страница со всеми постами" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="150" y="-225" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-57" value="Страница просмотра поста" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="160" y="-155" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-58" value="Страница создания/редактирования поста" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="100" y="-70" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-59" value="Регистрация" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="160" y="31.5" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-60" value="Авторизация" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="290" y="40" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-62" value="Список пользователей в системе" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="320" y="115" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-64" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-50" target="5C3-gxpcgWqqSa_wzZ6r-53" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" as="sourcePoint" />
+            <mxPoint x="490" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-65" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-50" target="5C3-gxpcgWqqSa_wzZ6r-54" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" as="sourcePoint" />
+            <mxPoint x="490" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-66" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-50" target="5C3-gxpcgWqqSa_wzZ6r-56" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" as="sourcePoint" />
+            <mxPoint x="490" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-67" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-50" target="5C3-gxpcgWqqSa_wzZ6r-57" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" as="sourcePoint" />
+            <mxPoint x="490" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-68" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-50" target="5C3-gxpcgWqqSa_wzZ6r-58" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" as="sourcePoint" />
+            <mxPoint x="490" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-69" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-50" target="5C3-gxpcgWqqSa_wzZ6r-59" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" as="sourcePoint" />
+            <mxPoint x="490" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-70" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-50" target="5C3-gxpcgWqqSa_wzZ6r-60" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="50" as="sourcePoint" />
+            <mxPoint x="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-71" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-50" target="5C3-gxpcgWqqSa_wzZ6r-62" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="50" as="sourcePoint" />
+            <mxPoint x="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-72" value="Временная блокировка пользователя" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="490" y="130" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-73" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-50" target="5C3-gxpcgWqqSa_wzZ6r-72" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="70" as="sourcePoint" />
+            <mxPoint x="650" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-74" value="База данных (MySQL)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="530" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-75" value="Блокировки (история блокировок)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="170" y="220" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-76" value="Комментарии" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="210" y="360" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-77" value="Посты" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="270" y="460" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-78" value="Пользователи" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="440" y="490" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-79" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-74" target="5C3-gxpcgWqqSa_wzZ6r-78" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="355" as="sourcePoint" />
+            <mxPoint x="580" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-80" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-74" target="5C3-gxpcgWqqSa_wzZ6r-77" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="355" as="sourcePoint" />
+            <mxPoint x="580" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-81" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-74" target="5C3-gxpcgWqqSa_wzZ6r-76" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="355" as="sourcePoint" />
+            <mxPoint x="580" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-82" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-74" target="5C3-gxpcgWqqSa_wzZ6r-75" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="355" as="sourcePoint" />
+            <mxPoint x="580" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5C3-gxpcgWqqSa_wzZ6r-83" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-1" target="5C3-gxpcgWqqSa_wzZ6r-74" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="330" as="sourcePoint" />
+            <mxPoint x="970" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-1" value="Функционал" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="930" y="135" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="5C3-gxpcgWqqSa_wzZ6r-1" target="OZX1X-Si7bzoR-u98kf8-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1143" y="22" as="sourcePoint" />
+            <mxPoint x="960" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-3" value="Регистрация" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="800" y="370" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-4" value="Авторизация" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="980" y="460" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-5" value="Выход" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-1" target="OZX1X-Si7bzoR-u98kf8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="974.5" y="195" as="sourcePoint" />
+            <mxPoint x="1035.5" y="337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-1" target="OZX1X-Si7bzoR-u98kf8-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="70" as="sourcePoint" />
+            <mxPoint x="1181" y="212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-1" target="OZX1X-Si7bzoR-u98kf8-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1129" y="110" as="sourcePoint" />
+            <mxPoint x="1190" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-3" target="OZX1X-Si7bzoR-u98kf8-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="813" y="450" as="sourcePoint" />
+            <mxPoint x="740" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-10" value="Имя" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="420" y="610" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-11" value="Фамилия" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="450" y="690" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-12" value="Отчество" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="490" y="770" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-13" value="Логин" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="610" y="740" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-14" value="Email" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="670" y="800" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-15" value="Пароль" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="760" y="720" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-16" value="Повторение пароля" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="820" y="790" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-3" target="OZX1X-Si7bzoR-u98kf8-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="670" as="sourcePoint" />
+            <mxPoint x="740" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-3" target="OZX1X-Si7bzoR-u98kf8-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="670" as="sourcePoint" />
+            <mxPoint x="740" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-3" target="OZX1X-Si7bzoR-u98kf8-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="670" as="sourcePoint" />
+            <mxPoint x="740" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-3" target="OZX1X-Si7bzoR-u98kf8-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="570" as="sourcePoint" />
+            <mxPoint x="925" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-3" target="OZX1X-Si7bzoR-u98kf8-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="600" as="sourcePoint" />
+            <mxPoint x="1115" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-3" target="OZX1X-Si7bzoR-u98kf8-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="500" as="sourcePoint" />
+            <mxPoint x="1227" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-26" value="Валидация данных при регистрации" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="885" y="700" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-3" target="OZX1X-Si7bzoR-u98kf8-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="550" as="sourcePoint" />
+            <mxPoint x="1195" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-28" value="Логин" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="945" y="560" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-29" value="Пароль" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="630" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-4" target="OZX1X-Si7bzoR-u98kf8-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="570" as="sourcePoint" />
+            <mxPoint x="830" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-4" target="OZX1X-Si7bzoR-u98kf8-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="570" as="sourcePoint" />
+            <mxPoint x="830" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-32" value="Валидация данных при авторизации" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="690" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-4" target="OZX1X-Si7bzoR-u98kf8-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="570" as="sourcePoint" />
+            <mxPoint x="830" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-34" value="Удаление токена" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="585" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-5" target="OZX1X-Si7bzoR-u98kf8-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="440" as="sourcePoint" />
+            <mxPoint x="1340" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-36" value="Комментарии" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="430" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-1" target="OZX1X-Si7bzoR-u98kf8-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="300" as="sourcePoint" />
+            <mxPoint x="1527" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-38" value="Возможность ответа на комментарий" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1279" y="660" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-36" target="OZX1X-Si7bzoR-u98kf8-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="220" as="sourcePoint" />
+            <mxPoint x="1380" y="231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-43" value="Посты" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-1" target="OZX1X-Si7bzoR-u98kf8-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1410" y="410" as="sourcePoint" />
+            <mxPoint x="1664" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-45" value="При удалении поста удаляются все комментарии к нему" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="270" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-43" target="OZX1X-Si7bzoR-u98kf8-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="380" as="sourcePoint" />
+            <mxPoint x="1673" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-47" value="Боковое меню" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="135" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-1" target="OZX1X-Si7bzoR-u98kf8-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="310" as="sourcePoint" />
+            <mxPoint x="1473" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-51" value="&lt;div&gt;Отображение элементов интерфейса в&lt;/div&gt;&lt;div&gt;зависимости от роли пользователя&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1527.5" y="20" width="215" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-1" target="OZX1X-Si7bzoR-u98kf8-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="310" as="sourcePoint" />
+            <mxPoint x="1170" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-53" value="Лента из 10 постов" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="160" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-43" target="OZX1X-Si7bzoR-u98kf8-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="490" as="sourcePoint" />
+            <mxPoint x="1860" y="546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-56" value="Вывод всех постов" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1445" y="440" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-57" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-43" target="OZX1X-Si7bzoR-u98kf8-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="420" as="sourcePoint" />
+            <mxPoint x="1715" y="554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-58" value="Отображение количества комментариев к посту" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="390" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-43" target="OZX1X-Si7bzoR-u98kf8-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1580" y="480" as="sourcePoint" />
+            <mxPoint x="1875" y="592" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-60" value="При перманентной блокировке пользователя удаляются все его посты" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="140" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-61" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-43" target="OZX1X-Si7bzoR-u98kf8-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1770" y="440" as="sourcePoint" />
+            <mxPoint x="2090" y="552" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-62" value="Пагинация" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="700" y="260" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-63" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-1" target="OZX1X-Si7bzoR-u98kf8-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="390" as="sourcePoint" />
+            <mxPoint x="1097" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-65" value="Валидация данных при создании комментария" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="645" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-66" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-36" target="OZX1X-Si7bzoR-u98kf8-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="410" as="sourcePoint" />
+            <mxPoint x="1447" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-67" value="Валидация данных при создании/редактировании поста" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="500" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OZX1X-Si7bzoR-u98kf8-68" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZX1X-Si7bzoR-u98kf8-43" target="OZX1X-Si7bzoR-u98kf8-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="460" as="sourcePoint" />
+            <mxPoint x="1748" y="624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
